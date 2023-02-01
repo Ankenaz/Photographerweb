@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kislap Studio</title>
+        <link rel="icon" href="images/kislap.png" />
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <span class = "brand-name">
+                        Kislap
+                    </span>
+                    <span class = "navBtn flex">
+                        <i class = "fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "blog.html"  class = "active">Blog</a></li>
+                        <li><a href = "package.html">Package</a></li>
+                        <li><a href = "contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class = "container about">
+                <div class = "about-content">
+                    <div class = "about-img flex">
+                        <img src = "images/about-img.jpg" alt = "photographer img">
+                    </div>
+                    <h2>Kislap Studios
+                        Blog
+                    </h2>
+                    <h3>Photographer | Videographer</h3>
+                    <blockquote>
+                        "The way that light hits objects, I think, is one of the more important things that sculpture and photography share"
+                        <span>-Rashid Johnson</span>
+                    </blockquote>
+                </div>
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://www.facebook.com/Kislapstudios"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/kislapstudio/"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+        <!-- end of header -->
+
+        <!-- main -->
+        <section class = "section-four">
+            <div class = "container">
+                <div class = "blogs">
+                    <div class = "blog-wrapper-lg">
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <img src = "images/blog1.jpg">
+                            <div class = "blog-content">
+                                <span class = "badge">wedding photos</span>
+                                <span class = "misc-info">
+                                    Published: December 17, 2022
+                                </span>
+                                <h3 class = "blog-title">
+                                    
+                                </h3>
+                                <p class = "blog-text">
+                                    i m happy to see couple are supper happy in there wedding day
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <!-- end of single post -->
+
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <img src = "images/blog2.jpg">
+                            <div class = "blog-content">
+                                <span class = "badge">wedding photos</span>
+                                <span class = "misc-info">
+                                    Published: December 17, 2022
+                                </span>
+                                <h3 class = "blog-title">
+                                    sana all
+                                </h3>
+                                <p class = "blog-text">
+                                    meron kiss
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <!-- end of single post -->
+                    </div>
+
+                    <div class = "blog-wrapper-sm">
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <img src = "images/blog3.jpg">
+                            <div class = "blog-content">
+                                <span class = "badge">Photography</span>
+                                <span class = "misc-info">
+                                    vibes
+                                </span>
+                                <h3 class = "blog-title">
+                                    chill vibes
+                                </h3>
+                                <p class = "blog-text">
+                                   some times Take rest
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <!-- end of single post -->
+
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <img src = "images/blog4.jpg">
+                            <div class = "blog-content">
+                                <span class = "badge">Photography</span>
+                                <span class = "misc-info">
+                                    take a every details
+                                </span>
+                                <h3 class = "blog-title">
+                                    Pogi Points
+                                </h3>
+                                <p class = "blog-text">
+                                    ganito dapat mga pormahan
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <!-- end of single post -->
+
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <img src = "images/blog5.jpg">
+                            <div class = "blog-content">
+                                <span class = "badge">Photography</span>
+                                <span class = "misc-info">
+                                    i love
+                                </span>
+                                <h3 class = "blog-title">
+                                    i love what im doing
+                                </h3>
+                                <p class = "blog-text">
+                                    love what you are doing to keep in touch and make that passion
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <!-- end of single post -->
+
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <img src = "images/blog6.jpg">
+                            <div class = "blog-content">
+                                <span class = "badge">Photography</span>
+                                <span class = "misc-info">
+                                    Focus
+                                </span>
+                                <h3 class = "blog-title">
+                                    everything need focus
+                                </h3>
+                                <p class = "blog-text">
+                                    like sa goals we need to be focus!
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <!-- end of single post -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container container">
+                <div>
+                    <h2>Kislap Studios</h2>
+                    <p>Welcome & Thank you for visiting our Page!
+                        Pakislapin natin ang moments mo with Kislap Studios!</p>
+                </div>
+                <div>
+                    <h3>Submit your request</h3>
+                    <p>Email Us Now.</p>
+
+                    <div class = "subs">
+                        <i class = "fas fa-envelope"></i>
+                        <input type = "email" id = "email" placeholder="kislapstudio@gmail.com">
+                        <button type = "submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; Copyright Kislap . 2020 - 2023</p>
+        </footer>
+        <!-- end of footer -->
+        
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>

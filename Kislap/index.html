@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="images/kislap.png" />
+        <title>Kislap Studio</title>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <span class = "brand-name">
+                        Kislap
+                    </span>
+                    <span class = "navBtn flex">
+                        <i class = "fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html" class = "active">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "blog.html">Blog</a></li>
+                        <li><a href = "package.html">Package</a></li>
+                        <li><a href = "contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class = "container about">
+                <div class = "about-content">
+                    <div class = "about-img flex">
+                        <img src = "images/about-img.jpg" alt = "photographer img">
+                    </div>
+                    <h2>Kislap Studio</h2>
+                    <h3>Photographer | Videographer</h3>
+                    <blockquote>
+                        "What do we feel when we look at a good photograph? We just want to be there, right at the exact moment that photo taken!"
+                        <span>-Mehmet Murat Ildan</span>
+                    </blockquote>
+                </div>
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://www.facebook.com/Kislapstudios"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/kislapstudio/"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+        <!-- main -->
+        <section class = "section-one">
+            <div class = "container">
+                <div class = "sec-one-left">
+                    <!-- image here -->
+                    <div>
+                        <h3>M A R A + D E X T E R  |  P R E - W E D D I N G  P H O T O S </h3>
+                        <p>Take the opportunity before its to late</p>
+                        <a href = "gallery.html" class = "btn">view all</a>
+                    </div>
+                </div>
+
+                <div class = "sec-one-right">
+                    <div class = "work-content">
+                        <h3> D E N N I S + E L I Z A B E T H | H I G H L I G H T S </h3>
+                        <p>we are not the best but we make sure to bring you smile.</p>
+                        <a href = "gallery.html" class = "btn">view all</a>
+                    </div>
+                    <div class = "work-imgs">
+                        <div class = "work-img-1">
+                            <!--image here-->
+                        </div>
+                        <div class = "work-img-2">
+                            <!-- image here -->
+                        </div>
+                    </div>
+                    <h3>"Taking an image, freezing a moment, reveals how rich reality truly is."</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class = "section-two">
+            <div class = "container">
+                <h2>FOLLOW ON INSTAGRAM</h2>
+                <span>@kislapstudio</span>
+                <div class = "insta-imgs">
+                    <div>
+                        <img src = "images/insta-1.png">
+                        <div class = "icon-overlay flex">
+                            <i class = "fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src = "images/insta-2.png">
+                        <div class = "icon-overlay flex">
+                            <i class = "fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src = "images/insta-3.png">
+                        <div class = "icon-overlay flex">
+                            <i class = "fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src = "images/insta-4.jpg">
+                        <div class = "icon-overlay flex">
+                            <i class = "fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container container">
+                <div>
+                    <h2>kislap studio</h2>
+                    <p>Welcome & Thank you for visiting our Page!
+                        Pakislapin natin ang moments mo with Kislap Studios!.</p>
+                </div>
+                <div>
+                    <h3>Submit your request</h3>
+                    <p>Email Us Now.</p>
+
+                    <div class = "subs">
+                        <i class = "fas fa-envelope"></i>
+                        <input type = "Email Address" id = "email" placeholder="kislapstudio@gmail.com">
+                        <button type = "submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; Copyright Kislap . 2020 - 2023</p>
+        </footer>
+        <!-- end of footer -->
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
